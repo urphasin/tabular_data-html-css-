@@ -46,6 +46,8 @@
   --grad-3y: #8f94fb;
 
   --gradient-1: linear-gradient(135deg, var(--grad-1x), var(--grad-1y));
+  --gradient-2: linear-gradient(135deg, var(--grad-2x), var(--grad-2y));
+  --gradient-3: linear-gradient(135deg, var(--grad-3x), var(--grad-3y));
   /* end */
 
 }
