@@ -48,6 +48,8 @@
   --gradient-1: linear-gradient(135deg, var(--grad-1x), var(--grad-1y));
   --gradient-2: linear-gradient(135deg, var(--grad-2x), var(--grad-2y));
   --gradient-3: linear-gradient(135deg, var(--grad-3x), var(--grad-3y));
+
+  --text-light: #ffffff;
   /* end */
 
 }
@@ -61,17 +63,6 @@ small {font-size: var(--step--1);}
 /* colors */
 h1, h2, h3 { color: var(--text-primary); }
 p, small { color: var(--text-muted); }
-
-
-.hero:nth-of-type(1) {
-  background: linear-gradient(135deg, var(--bg-1), var(--accent-1));
-}
-.hero:nth-of-type(2) {
-  background: linear-gradient(135deg, var(--bg-2), var(--accent-2));
-}
-.hero:nth-of-type(3) {
-  background: linear-gradient(135deg, var(--bg-3), var(--accent-3));
-}
 /* end */
 
 html, body {
@@ -107,3 +98,7 @@ section {
 .hero {
   transition: background 0.5s ease;
 }
+
+.hero:nth-of-type(1) {background: var(--gradient-1)}
+.hero:nth-of-type(2) {background: var(--gradient-2)}
+.hero:nth-of-type(3) {background: var(--gradient-3)}
